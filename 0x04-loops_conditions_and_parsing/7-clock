@@ -7,7 +7,7 @@ do
 	min=1
 	while [ $min -lt 60 ]
 	do
-		echo "Mins: $min"
+		echo $min
 		((min++))
 	done
 	((hour++))
