@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Script that displays content of current directory in list format, ommitting file numbers and hyphens.
+for file in *
+do
+	echo "$file" | cut -d- -f2
+done
