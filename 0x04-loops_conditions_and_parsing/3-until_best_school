@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 #Until script that displays "Best School" 10 times.
 j=0
 until [ $j -gt 9 ]
