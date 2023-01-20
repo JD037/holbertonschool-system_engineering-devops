@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#Script that displays nubers 1-20 and: 
+#displays 4 and then bad luck from China for the 4th loop iteration,
+#displays 9 and then bad luck from Japan for the 9th loop iteration,
+#displays 17 and then bad luck from Italy for the 17th loop iteration.
+j=0
+while [ $j -lt 20 ]
+do
+	echo $((j+1))
+	case $j in
+		3)
+			echo "bad luck from China"
+			;;
+		8)
+			echo "bad luck from Japan"
+			;;
+		16)
+			echo "bad luck from Italy"
+			;;
+		*)
+			;;
+	esac
+	((j++))
+done
