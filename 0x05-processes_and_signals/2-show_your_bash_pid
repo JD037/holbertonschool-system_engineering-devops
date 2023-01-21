@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script allowing you to easily get the PID of your Bash process and 
+#listing all files containing "bash".
+# shellcheck disable=SC2009
+ps auxf | grep "bash"
