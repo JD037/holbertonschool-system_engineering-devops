@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script that indefinitely displays "To infinity and beyond"
 j=37
-while [ $j > 0 ]
+while [ $j -gt 0 ]
 do
 	echo "To infinity and beyond"
 	sleep 2
